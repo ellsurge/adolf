@@ -78,7 +78,7 @@ pip install pyinstaller
 Run the following command to create a single executable:
 
 ```bash
-pyinstaller --onefile script.py
+pyinstaller --onefile --add-binary "aria2c.exe;." script.py
 ```
 
 - This will create an executable in the `dist` folder.
